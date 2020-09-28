@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'iOSBaseUtilApi_Example' do
+  pod 'iOSBaseUtilApi', :path => '../'
+
+  target 'iOSBaseUtilApi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

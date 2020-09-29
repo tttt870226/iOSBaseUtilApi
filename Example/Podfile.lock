@@ -1,0 +1,16 @@
+PODS:
+  - iOSBaseUtilApi (0.1.0)
+
+DEPENDENCIES:
+  - iOSBaseUtilApi (from `../`)
+
+EXTERNAL SOURCES:
+  iOSBaseUtilApi:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  iOSBaseUtilApi: d66b94f863e6c5477044c7826cb3abbe503aa257
+
+PODFILE CHECKSUM: a9b53166691f020e39c52c937ddf17d1ebee3ab5
+
+COCOAPODS: 1.9.3

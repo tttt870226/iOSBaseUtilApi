@@ -1,0 +1,6 @@
+framework module iOSBaseUtilApi {
+  umbrella header "iOSBaseUtilApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

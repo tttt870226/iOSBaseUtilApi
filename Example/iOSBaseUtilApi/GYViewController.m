@@ -7,6 +7,7 @@
 //
 
 #import "GYViewController.h"
+#import "iOSBaseUtilApi.h"
 
 @interface GYViewController ()
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString* appName = [BaseUtilApi getDetailPhoneType];
+    NSLog(@"appname = %@",appName);
+    
+    [NetRequest requestWithMethods:@"GET" url:nil params:nil cookies:nil block:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+    }];
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

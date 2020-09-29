@@ -10,11 +10,11 @@
 		0379C2167CEA36AFFF821A70E7714ABD /* Pods-iOSBaseUtilApi_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C694A0C29888870DE0196CAA10351082 /* Pods-iOSBaseUtilApi_Example-dummy.m */; };
 		04A8E3A44613B69C1E6293744092235B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		0F9930DAE25092FCC396FFCBDAAA18BF /* Pods-iOSBaseUtilApi_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49F9F4AE959B49FC77796E2DD9826DC9 /* Pods-iOSBaseUtilApi_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256D57712522C6F700130BFA /* iOSBaseUtilApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 256D57702522C69200130BFA /* iOSBaseUtilApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256D57742522D15D00130BFA /* NetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 256D57722522D15D00130BFA /* NetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		256D57752522D15D00130BFA /* NetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 256D57732522D15D00130BFA /* NetRequest.m */; };
-		25E8AECC2521D5F500A344A1 /* BaseUtilApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E8AECA2521D5F500A344A1 /* BaseUtilApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		25E8AECD2521D5F500A344A1 /* BaseUtilApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 25E8AECB2521D5F500A344A1 /* BaseUtilApi.m */; };
+		256D577B2522DE5400130BFA /* iOSBaseUtilApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 256D57762522DE5400130BFA /* iOSBaseUtilApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256D577C2522DE5400130BFA /* BaseUtilApi.h in Headers */ = {isa = PBXBuildFile; fileRef = 256D57772522DE5400130BFA /* BaseUtilApi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256D577D2522DE5400130BFA /* NetRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 256D57782522DE5400130BFA /* NetRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256D577E2522DE5400130BFA /* NetRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 256D57792522DE5400130BFA /* NetRequest.m */; };
+		256D577F2522DE5400130BFA /* BaseUtilApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 256D577A2522DE5400130BFA /* BaseUtilApi.m */; };
 		5351CB4AA0285A3C9766E8B765E50C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		5BAA5DAD75D6AB232AABF1F66A343085 /* iOSBaseUtilApi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEBE1588BD7F51028D9131E8C183C5AA /* iOSBaseUtilApi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5BE0D181E189E8CB3F240D75B9480DF7 /* Pods-iOSBaseUtilApi_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8FB9CEA985EA7672FCC017A3C68861 /* Pods-iOSBaseUtilApi_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -48,11 +48,11 @@
 		15E093728207B5A50DC7BE3E815E5664 /* Pods-iOSBaseUtilApi_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iOSBaseUtilApi_Example.modulemap"; sourceTree = "<group>"; };
 		227DAF0D64413CA6A419DA9F1C15EA9A /* iOSBaseUtilApi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSBaseUtilApi-dummy.m"; sourceTree = "<group>"; };
 		2320EF806CD1B465D4063E754D707721 /* Pods-iOSBaseUtilApi_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSBaseUtilApi_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		256D57702522C69200130BFA /* iOSBaseUtilApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSBaseUtilApi.h; sourceTree = "<group>"; };
-		256D57722522D15D00130BFA /* NetRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetRequest.h; sourceTree = "<group>"; };
-		256D57732522D15D00130BFA /* NetRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetRequest.m; sourceTree = "<group>"; };
-		25E8AECA2521D5F500A344A1 /* BaseUtilApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseUtilApi.h; sourceTree = "<group>"; };
-		25E8AECB2521D5F500A344A1 /* BaseUtilApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseUtilApi.m; sourceTree = "<group>"; };
+		256D57762522DE5400130BFA /* iOSBaseUtilApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iOSBaseUtilApi.h; path = iOSBaseUtilApi/Classes/iOSBaseUtilApi.h; sourceTree = "<group>"; };
+		256D57772522DE5400130BFA /* BaseUtilApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseUtilApi.h; path = iOSBaseUtilApi/Classes/BaseUtilApi.h; sourceTree = "<group>"; };
+		256D57782522DE5400130BFA /* NetRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetRequest.h; path = iOSBaseUtilApi/Classes/NetRequest.h; sourceTree = "<group>"; };
+		256D57792522DE5400130BFA /* NetRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NetRequest.m; path = iOSBaseUtilApi/Classes/NetRequest.m; sourceTree = "<group>"; };
+		256D577A2522DE5400130BFA /* BaseUtilApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseUtilApi.m; path = iOSBaseUtilApi/Classes/BaseUtilApi.m; sourceTree = "<group>"; };
 		2F1DDCB7C70AF4D39D60A1E115DC9AE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2F4A054502D69ADF49F590E68A831139 /* iOSBaseUtilApi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSBaseUtilApi.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -113,14 +113,14 @@
 		17193E12EFB2C223D3E5AB74DC9902C4 /* iOSBaseUtilApi */ = {
 			isa = PBXGroup;
 			children = (
+				256D57772522DE5400130BFA /* BaseUtilApi.h */,
+				256D577A2522DE5400130BFA /* BaseUtilApi.m */,
+				256D57762522DE5400130BFA /* iOSBaseUtilApi.h */,
+				256D57782522DE5400130BFA /* NetRequest.h */,
+				256D57792522DE5400130BFA /* NetRequest.m */,
 				67270B108E70D0EA4F0A69B3E6E707C0 /* ReplaceMe.m */,
 				62301A63E21B44B5998AABF9A0D56034 /* Pod */,
 				B363318734204FF75079968D18A29721 /* Support Files */,
-				25E8AECA2521D5F500A344A1 /* BaseUtilApi.h */,
-				25E8AECB2521D5F500A344A1 /* BaseUtilApi.m */,
-				256D57702522C69200130BFA /* iOSBaseUtilApi.h */,
-				256D57722522D15D00130BFA /* NetRequest.h */,
-				256D57732522D15D00130BFA /* NetRequest.m */,
 			);
 			name = iOSBaseUtilApi;
 			path = ../..;
@@ -253,10 +253,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E8AECC2521D5F500A344A1 /* BaseUtilApi.h in Headers */,
+				256D577C2522DE5400130BFA /* BaseUtilApi.h in Headers */,
+				256D577B2522DE5400130BFA /* iOSBaseUtilApi.h in Headers */,
+				256D577D2522DE5400130BFA /* NetRequest.h in Headers */,
 				5BAA5DAD75D6AB232AABF1F66A343085 /* iOSBaseUtilApi-umbrella.h in Headers */,
-				256D57742522D15D00130BFA /* NetRequest.h in Headers */,
-				256D57712522C6F700130BFA /* iOSBaseUtilApi.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,10 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25E8AECD2521D5F500A344A1 /* BaseUtilApi.m in Sources */,
 				96285260F1E1E3D19FD2ED6319F5F668 /* iOSBaseUtilApi-dummy.m in Sources */,
+				256D577E2522DE5400130BFA /* NetRequest.m in Sources */,
 				DDA8D2FDB266C1ABF69BD7D32B392272 /* ReplaceMe.m in Sources */,
-				256D57752522D15D00130BFA /* NetRequest.m in Sources */,
+				256D577F2522DE5400130BFA /* BaseUtilApi.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
